@@ -7,16 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
 .nav {
   display: flex;
   width: 100vw;
-  background-color: #22577A;
+  background-color: #439ccf;
   justify-content: space-evenly;
 }
 
