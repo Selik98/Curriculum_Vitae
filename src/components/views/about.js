@@ -4,7 +4,7 @@ function About() {
     return (
 
         <>
-            <h1>Sobre Mi</h1>
+            <h1 className="bodyTitle">Sobre Mi</h1>
         </>
 
     );
