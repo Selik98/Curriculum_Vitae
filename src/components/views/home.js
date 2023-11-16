@@ -10,7 +10,7 @@ function Home() {
             <PersonalCard/>
             <div className="buttons">
             <Button
-            title = 'Sobre Mi'
+            title = 'Curriculum'
             />
                         <Button
             title = 'Repositorios'

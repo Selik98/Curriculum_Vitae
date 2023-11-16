@@ -4,8 +4,8 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 function Button(props) {
   let redirect
   switch (props.title) {
-    case 'Sobre Mi':
-      redirect = '/about'
+    case 'Curriculum':
+      redirect = '/curriculum'
       break
     case 'Repositorios':
       redirect = '/repositorios'

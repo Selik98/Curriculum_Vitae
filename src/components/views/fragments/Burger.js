@@ -19,7 +19,7 @@ const BurgerMenu = () => {
 
       {menuOpen && (
         <div className="menu-links">
-          <Link to="/about">Acerca de</Link>
+          <Link to="/curriculum">Curriculum</Link>
           <Link to="/repositorios">Repositorios</Link>
           <Link to="/contacto">Contacto</Link>
         </div>

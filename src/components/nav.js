@@ -16,7 +16,7 @@ function Nav() {
                 <h1 className="headTitle"> Matias Kiesel</h1></Link>
             <div className="sep">
             <ul className="list">
-                <Link to='/About' className="link-style" exact = {true} ><li>Sobre Mi</li></Link>
+                <Link to='/curriculum' className="link-style" exact = {true} ><li>Curriculum</li></Link>
                 <Link to='/Repositorios' className="link-style" exact = {true} ><li>Repositorios</li></Link>
                 <Link to='/Contacto' className="link-style" exact = {true} ><li>Contacto</li></Link>
             </ul>
