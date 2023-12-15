@@ -1,0 +1,130 @@
+.bodyTitle {
+    margin-bottom: 50px;
+}
+
+.info,
+.campo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.campo label {
+    font-family: 'prompt';
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14pt;
+}
+
+
+.campo select,
+.campo input,
+form button {
+    width: 80vw;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.campo select {
+    text-align: center;
+    height: 40px;
+}
+
+.campo textarea {
+    width: 80vw;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+form button {
+    background-color: #153B50;
+    color: white;
+    font-family: 'prompt';
+    font-weight: 500;
+    font-size: 15pt;
+}
+
+.error {
+    font-family: 'prompt';
+    color: red;
+    margin-top: 8px;
+}
+
+
+
+
+@media (min-width: 800px) {}
+
+@media (min-width: 1080px) {
+
+    .contacto {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .campo select,
+    .campo input,
+    form button,
+    .campo textarea {
+        width: 35vw;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    .info {
+        width: 40vw;
+        margin-top: 120px;
+    }
+
+    form {
+        margin-top: 40px;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+@media (min-width: 1280px) {
+
+    .data {
+        display: flex;
+        justify-content: space-between;
+        width: 34vw;
+    }
+
+    .campo select,
+    .campo input
+    {
+        width: 15vw;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    .campo{
+        margin: 15px;
+        justify-content: center;
+    }
+
+    .campo textarea{
+        width: 20vw;
+    }
+
+    form button {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 100%;
+        margin-right: 45px;
+    }
+
+    .extra {
+        margin-top: 20px;
+    }
+}
