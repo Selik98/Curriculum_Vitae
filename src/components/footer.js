@@ -21,7 +21,7 @@ function Footer() {
             <div>
                 <h4 className="sub">Mis cuentas</h4>
                 <div className="media">
-                    <a href="https://www.linkedin.com/in/matias-kiesel-b6443a117/" className="none"><i className="fab fa-linkedin social" /> </a>
+                    <a href="https://www.linkedin.com/in/matias-kiesel/" className="none"><i className="fab fa-linkedin social" /> </a>
                     <a href="https://github.com/Selik98" className="none"><i className="fab fa-github social" /> </a>
                 </div>
             </div>

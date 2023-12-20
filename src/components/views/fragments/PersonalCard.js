@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../resources/DSC_7109.jpg"
+import foto from "../resources/Cv-Pic.jpeg"
 
 function PersonalCard() {
 
@@ -7,7 +7,7 @@ function PersonalCard() {
 
   return (
     <div className='mycard'>
-      <img src={foto} className="myself" />
+      <img src={foto} className="myself" alt="Foto Matias Kiesel"/>
       <div className="base homeRes">
         <h1 className="homeTitle">Hola</h1>
         <h2 className="subtitle">Un poco de mi</h2>

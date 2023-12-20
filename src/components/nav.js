@@ -12,7 +12,7 @@ function Nav() {
         <nav className="nav">
             <Burger/>
             <Link to='/' className="link-style" exact = {true}>
-                <img src={logo} className="logo"/>
+                <img src={logo} className="logo" alt="Imagen Vectorizada de Matias"/>
                 <h1 className="headTitle"> Matias Kiesel</h1></Link>
             <div className="sep">
             <ul className="list">
