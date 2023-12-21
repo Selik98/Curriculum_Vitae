@@ -2,24 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 function Button(props) {
-  let redirect
+  let redirect;
   switch (props.title) {
-    case 'Curriculum':
-      redirect = '/curriculum'
-      break
-    case 'Repositorios':
-      redirect = '/repositorios'
-      break
-    case 'Contacto':
-      redirect = '/contacto'
-      break
-      default:
-      redirect = '/'
+    case "Curriculum":
+      redirect = "/curriculum";
+      break;
+    case "Repositorios":
+      redirect = "/repositorios";
+      break;
+    case "Contacto":
+      redirect = "/contacto";
+      break;
+    default:
+      redirect = "/";
   }
 
   return (
     <div>
-      <Link to={redirect} className='none'><button className="redirect">{props.title}</button></Link>
+      <Link to={redirect} className="none">
+        <button className="redirect">{props.title}</button>
+      </Link>
     </div>
   );
 }
