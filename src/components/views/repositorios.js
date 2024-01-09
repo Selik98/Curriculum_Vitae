@@ -33,7 +33,7 @@ function Repositorios() {
         />
         <BasicCard
           adressGithub="https://github.com/Selik98/FormulaE"
-          adressWebsite="https://github.com/Selik98/MeVe-Mati.K"
+          adressWebsite="No Disponible"
           name="Formula E"
           img="../resources/formulae.png"
         />

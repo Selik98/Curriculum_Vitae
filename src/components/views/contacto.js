@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/contacto.css";
 import { useForm } from "react-hook-form";
+import sendEmail from "../../sendEmail";
 
 function Contacto() {
   const {
@@ -11,7 +12,12 @@ function Contacto() {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    const name =  document.getElementById('nombre').value;
+    const lastname =  document.getElementById('apellido').value;
+    const mail =  document.getElementById('email').value;
+    const country =  document.getElementById('pais').value;
+    const text =  document.getElementById('mensaje').value;
+    sendEmail(name,lastname,mail,country,text)
   };
 
   const validateField = async (fieldName) => {

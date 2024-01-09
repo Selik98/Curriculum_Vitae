@@ -10,6 +10,7 @@ import Curriculum from "./components/views/curriculum";
 import Home from "./components/views/home";
 import Repositorios from "./components/views/repositorios";
 import Contacto from "./components/views/contacto";
+import sendEmail from "./sendEmail";
 
 function App() {
   return (
