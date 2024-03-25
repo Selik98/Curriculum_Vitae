@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import '../../../css/Nav.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../../../css/Nav.css";
 
 const BurgerMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const BurgerMenu = () => {
   };
 
   return (
-    <div className={`burger-menu ${menuOpen ? 'menu-open' : ''}`}>
+    <div className={`burger-menu ${menuOpen ? "menu-open" : ""}`}>
       <div className="burger-icon" onClick={toggleMenu}>
         <div className="line"></div>
         <div className="line"></div>

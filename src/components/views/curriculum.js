@@ -3,24 +3,20 @@ import Skills from "./fragments/Skills";
 import Experiences from "./fragments/Experiences";
 import Studies from "./fragments/Studies";
 
-
 function Curriculum() {
-    return (
-        <div className="curriculum">
-            <div className="titleHolder">
-                <h1 className="cvTitle">Curriculum</h1>
-            </div>
+  return (
+    <div className="curriculum">
+      <div className="titleHolder">
+        <h1 className="cvTitle">Curriculum</h1>
+      </div>
 
-            <Studies />
+      <Studies />
 
-            <Experiences />
+      <Experiences />
 
-
-            <Skills />
-
-
-        </div>
-    );
+      <Skills />
+    </div>
+  );
 }
 
 export default Curriculum;
