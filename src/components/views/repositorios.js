@@ -32,12 +32,7 @@ function Repositorios() {
             name = 'Mercado Verde'
             img = {meve}
             />
-            <BasicCard
-            adressGithub = 'https://github.com/Selik98/FormulaE'
-            adressWebsite = 'https://github.com/Selik98/MeVe-Mati.K'
-            name= 'Formula E'
-            img = '../resources/formulae.png'
-            />
+
 
             </section>
         </div>
